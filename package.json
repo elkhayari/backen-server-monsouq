@@ -1,0 +1,23 @@
+{
+  "name": "backen-server-monsouq",
+  "version": "1.0.0",
+  "description": "backend of my website www.monsouq.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elkhayari/backen-server-monsouq.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elkhayari/backen-server-monsouq/issues"
+  },
+  "homepage": "https://github.com/elkhayari/backen-server-monsouq#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.9"
+  }
+}
