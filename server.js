@@ -24,6 +24,6 @@ const productRouter = require('./routes/products')
 //app.use('/exercises', exercicesRouter)
 app.use('/products', productRouter)
 
-app.listen(port, '192.168.1.28', () =>{
+app.listen(port ,() =>{
     console.log(`server is running on port: ${port}.`)
 })
