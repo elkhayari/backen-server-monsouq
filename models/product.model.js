@@ -20,24 +20,21 @@ const productSchema = new Schema({
     },
     brand: {
         type: String,
-        required: true,
+        required: false,
     },
     info: {
         type: String,
-        required: true,
+        required: false,
     },
-    inCart: {
+    archive: {
         type: Boolean,
-        required: true,
+        default: false
     },
-    count: {
+     stock: {
         type: Number,
         default: 0
     },
-    total: {
-        type: Number,
-        default: 0
-    },
+
     date: {
         type: Date,
         default: Date.now
